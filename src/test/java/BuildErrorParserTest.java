@@ -28,7 +28,7 @@ public class BuildErrorParserTest {
         List<ExceptionStackTraceElement> stackTrace = exception.getStackTrace();
         Assert.assertEquals(2, stackTrace.size());
 
-        ExceptionStackTraceElement exceptionSource = stackTrace.get(0);
+        ExceptionStackTraceElement exceptionSource = stackTrace.get(1);
         Assert.assertEquals("/home/admin/library.py", exceptionSource.getLocation().getAbsolutePath());
         Assert.assertEquals(2, exceptionSource.getLine());
     }
