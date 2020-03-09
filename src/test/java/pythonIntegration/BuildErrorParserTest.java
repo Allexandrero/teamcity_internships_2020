@@ -1,8 +1,7 @@
+package pythonIntegration;
+
 import org.junit.Assert;
 import org.junit.Test;
-import python_integration.BuildErrorParser;
-import python_integration.ExceptionStackTraceElement;
-import python_integration.PythonExceptionImpl;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package python_integration;
+package pythonIntegration;
 
 import org.jetbrains.annotations.NotNull;
 
